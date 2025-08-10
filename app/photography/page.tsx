@@ -5,7 +5,7 @@ import { garamond } from "@/lib/fonts";
 import ComingSoon from "@/components/coming-soon";
 import { Skeleton } from "@/components/ui/skeleton";
 
-const photos = Array.from({ length: 9 }).map((_, i) => ({
+const photos = Array.from({ length: 3 }).map((_, i) => ({
   src: `/placeholder.svg?height=${i % 3 === 0 ? 900 : 1200}&width=${
     i % 3 === 0 ? 700 : 800
   }&query=moody%20street%20photography%20bw%20grain%20film%20${i + 1}`,
