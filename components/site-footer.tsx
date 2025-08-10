@@ -15,7 +15,7 @@ export default function SiteFooter() {
               <Link
                 href={"https://www.instagram.com/gabyzenha_013/"}
                 target="_blank"
-                className="hover:underline bg-gradient-to-r from-purple-700  to-red-400 bg-clip-text text-transparent"
+                className="hover:underline bg-gradient-to-r from-purple-700  to-red-700 bg-clip-text text-transparent"
                 title="Eu te amo Gabrielle!"
               >
                 Gabrielle G. Rojas
@@ -23,10 +23,18 @@ export default function SiteFooter() {
               | 498.***.***-90
             </p>
           </div>
-          <div
-            className={`${jetmono.className} text-xs uppercase tracking-widest text-neutral-500`}
-          >
-            © {new Date().getFullYear()} Ezequias Lopes
+          <div className="flex flex-col items-start sm:items-end gap-2">
+            <a
+              href="mailto:contato@ezequiaslopes.com"
+              className={`${jetmono.className} text-xs uppercase tracking-widest text-amber-300 hover:text-amber-200`}
+            >
+              contato@ezequiaslopes.com
+            </a>
+            <div
+              className={`${jetmono.className} text-xs uppercase tracking-widest text-neutral-500`}
+            >
+              © {new Date().getFullYear()} Ezequias Lopes
+            </div>
           </div>
         </div>
         <div className="mt-6 text-sm text-neutral-500">
