@@ -71,12 +71,12 @@ export default function Page() {
               </div>
             </div>
             <div className="relative">
-              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl border border-neutral-900 bg-neutral-950">
+              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl border bg-amber-300 border-neutral-900 ">
                 <Image
                   src="/images/yellowme.png"
                   alt="Retrato de Ezequias em luz baixa"
                   fill
-                  className="object-cover opacity-90"
+                  className="object-cover"
                   sizes="(min-width: 1024px) 32rem, 100vw"
                   priority
                 />
