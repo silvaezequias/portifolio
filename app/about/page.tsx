@@ -42,7 +42,7 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <div className="relative aspect-[4/5] ring-1 ring-amber-300 overflow-hidden rounded-xl border border-neutral-900 bg-neutral-950">
+              <div className="relative aspect-[4/5] outline-dashed outline-offset-2 outline-2 outline-amber-300 overflow-hidden rounded-xl border border-neutral-900 bg-neutral-950">
                 <Image
                   src="/images/aboutme.jpg"
                   alt="Retrato de Ezequias"
