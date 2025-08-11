@@ -3,6 +3,13 @@ import SiteHeader from "@/components/site-header";
 import SiteFooter from "@/components/site-footer";
 import GrainBG from "@/components/grain-bg";
 import { garamond, jetmono } from "@/lib/fonts";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ezequias - Sobre Mim",
+  description:
+    "Conheça mais sobre mim, Ezequias Lopes, e minha paixão por tecnologia, fotografia e música.",
+};
 
 export default function Page() {
   return (

@@ -5,6 +5,13 @@ import { garamond } from "@/lib/fonts";
 import ComingSoon from "@/components/coming-soon";
 import { Skeleton } from "@/components/ui/skeleton";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ezequias - Fotografia",
+  description: "Projetos autorais de fotografia, arte e cinema.",
+};
+
 const photos = Array.from({ length: 3 }).map((_, i) => ({
   src: `/placeholder.svg?height=${i % 3 === 0 ? 900 : 1200}&width=${
     i % 3 === 0 ? 700 : 800

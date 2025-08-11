@@ -39,6 +39,9 @@ export default function SiteFooter() {
         </div>
         <div className="mt-6 text-sm text-neutral-500">
           <div className="flex flex-wrap gap-4">
+            <Link href="/NEXTEAM" className="hover:text-neutral-300">
+              NEXTEAM®
+            </Link>
             <Link
               href="https://github.com/silvaezequias"
               className="hover:text-neutral-300"
@@ -60,7 +63,11 @@ export default function SiteFooter() {
             >
               Instagram
             </Link>
-            <Link href="#" className="text-zinc-900" title="EM BREVE">
+            <Link
+              href="#"
+              className="cursor-not-allowed select-none text-neutral-600 hover:text-neutral-500"
+              title="EM BREVE"
+            >
               Spotify
             </Link>
           </div>

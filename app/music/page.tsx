@@ -4,6 +4,12 @@ import GrainBG from "@/components/grain-bg";
 import ComingSoon from "@/components/coming-soon";
 import { garamond } from "@/lib/fonts";
 import { Skeleton } from "@/components/ui/skeleton";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ezequias - Música",
+  description: "Projetos musicais autorais, minimalistas e experimentais.",
+};
 
 const tracks = [
   {
