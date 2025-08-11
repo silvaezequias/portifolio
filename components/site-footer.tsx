@@ -39,7 +39,7 @@ export default function SiteFooter() {
         </div>
         <div className="mt-6 text-sm text-neutral-500">
           <div className="flex flex-wrap gap-4">
-            <Link href="/NEXTEAM" className="hover:text-neutral-300">
+            <Link href="/nexteam" className="hover:text-neutral-300">
               NEXTEAM®
             </Link>
             <Link
