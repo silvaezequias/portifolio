@@ -26,7 +26,7 @@ export default function Page() {
             <div className="justify-self-center">
               <div className="relative aspect-square w-80 sm:w-96 rounded-xl border border-neutral-900 bg-neutral-950/60 ring-1 ring-neutral-900/60">
                 <Image
-                  src="/images/NEXTEAM-logo.png"
+                  src="/images/nexteam-logo.png"
                   alt="logo da NEXTEAM®"
                   fill
                   sizes="(min-width: 1024px) 24rem, 20rem"
