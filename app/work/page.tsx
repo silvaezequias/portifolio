@@ -4,6 +4,13 @@ import GrainBG from "@/components/grain-bg";
 import { garamond } from "@/lib/fonts";
 import { Projects } from "@/components/projects";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ezequias - Projetos",
+  description: "Projetos digitais autorariais e colaborativos.",
+};
+
 export default function Page() {
   return (
     <main className="min-h-screen bg-black text-neutral-200">

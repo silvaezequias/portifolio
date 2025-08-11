@@ -4,8 +4,8 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ezequias Lopes - Portifólio",
-  description: "Portifólio de Ezequias Lopes",
+  title: "Ezequias - Portfolio",
+  description: "Portfolio de Ezequias Lopes",
 };
 
 export default function RootLayout({
