@@ -19,23 +19,17 @@ export function Projects(prop: { amount?: number }) {
             key={p.title}
             href={p.href}
             target="_blank"
-            className="group overflow-hidden rounded-xl border border-neutral-900 bg-neutral-950"
+            className="group overflow-hidden rounded border border-neutral-900 bg-neutral-950 transition-colors hover:hover:border-neutral-400"
           >
-            <div className="relative flex h-56 w-full bg-neutral-950">
-              {p.imageQuery ? (
-                <Image
-                  src={p.imageQuery}
-                  alt={p.title}
-                  fill
-                  className="object-cover transition-transform duration-500 scale-[0.7] group-hover:scale-[1.02]"
-                />
-              ) : (
-                <span
-                  className={`${jetmono.className} w-full h-full transition-transform duration-500 text-center flex justify-center items-center text-[40px] font-semibold group-hover:scale-[1.3]`}
-                >
-                  {p.name}
-                </span>
-              )}
+            <div className="relative flex h-56 w-full bg-neutral-950 overflow-hidden">
+              <Image
+                fill
+                src={`/images/projects/${p.name
+                  .toLocaleLowerCase()
+                  .replace(/\s/g, "-")}.png`}
+                alt={p.title}
+                className="object-cover"
+              />
             </div>
             <div className="p-4">
               <div className="flex flex-wrap gap-2">

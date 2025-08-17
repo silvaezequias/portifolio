@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ezequias - Projetos",
-  description: "Projetos digitais autorariais e colaborativos.",
+  description: "Projetos digitais autorais e colaborativos.",
 };
 
 export default function Page() {

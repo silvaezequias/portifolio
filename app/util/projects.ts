@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description:
       "SecureDB é um banco de dados local rápido e seguro para Node.js, com suporte a múltiplas instâncias e criptografia avançada.",
     href: "https://github.com/silvaezequias/secure-db",
-    imageQuery: undefined,
+    imageQuery: "/projects/SecureDB/opengraph-image",
     tags: ["Node.js", "Banco de Dados", "Criptografia"],
   },
   {
@@ -36,8 +36,8 @@ export const projects: Project[] = [
     tags: ["React", "JavaScript", "TypeScript", "Keyboard Events"],
   },
   {
-    name: "LemmeEncode",
-    title: "LemmeEncode - Biblioteca de codificação de dados",
+    name: "LemmEncode",
+    title: "LemmEncode - Biblioteca de codificação de dados",
     description:
       "LemmEncode é uma biblioteca simples que codifica e decodifica strings usando chave secreta, sal aleatório e saída em Base64.",
     href: "https://github.com/silvaezequias/lemmencode",
