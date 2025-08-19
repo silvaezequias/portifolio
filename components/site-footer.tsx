@@ -13,8 +13,7 @@ export default function SiteFooter() {
             <p className="text-sm text-neutral-500 mt-1">
               Agradecimento especial para ❤️{" "}
               <Link
-                href={"https://www.instagram.com/gabyzenha_013/"}
-                target="_blank"
+                href={"/gabrielle"}
                 className="hover:underline bg-gradient-to-r from-purple-700  to-red-700 bg-clip-text text-transparent"
                 title="Eu te amo Gabrielle!"
               >
